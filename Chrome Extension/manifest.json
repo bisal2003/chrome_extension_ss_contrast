@@ -1,0 +1,23 @@
+{
+    "name": "Appearance",
+    "description": "Go from light mode to dark mode and vice versa",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "downloads",
+        "tabs",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "image.png",
+            "48": "image.png",
+            "128": "image.png"
+        }
+    }
+}
